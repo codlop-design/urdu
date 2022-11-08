@@ -3350,12 +3350,14 @@ footer a i {
 .content-top {
   display: flex;
   align-items: center;
-  margin-top: 250px;
+  margin-top: 135px;
 }
 
 .content-top .flag {
   border-radius: 20px;
-  transform: rotate(5deg);
+  margin: 0 auto;
+  display: block;
+  height: 550px;
 }
 
 .right-content span {
@@ -3377,9 +3379,9 @@ footer a i {
 
 .behind-flag {
   position: absolute;
-  top: -44%;
+  top: 0;
   z-index: -1;
-  opacity: .7;
+  opacity: .6;
 }
 
 .about {
